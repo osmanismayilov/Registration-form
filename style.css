@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(150deg, #71b7de, #bf71de);
+}
+
+.registr {
+    width: 700px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.registr .registration {
+    font-size: 25px;
+    font-weight: 800;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.registr .registration::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: linear-gradient(150deg, #71b7de, #bf71de);
+    left: 0;
+    bottom: 0;
+}
+
+.input-box {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.registr form.form-registration {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+form.form-registration input {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+form.form-registration label {
+    font-size: 20px;
+}
+
+.gender span {
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.check {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.check-box {
+    margin-top: 10px;
+}
+
+.check input {
+    background: #bf71de;
+}
+
+.check label {
+    margin-left: 7px;
+}
+
+.submit {
+    height: 35px;
+    margin-top: 10px;
+}
+
+.check-box input[type=radio] {
+    appearance: none;
+    padding: 7px;
+    background-color: #7D7C7C;
+    border-radius:50%;
+ }
+
+.check-box input[type=radio]:checked {
+    background-color: blue;
+ }
+
+.submit input {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(150deg, #71b7de, #bf71de);
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.gender .check-box { 
+    margin-top: 20px;
+}

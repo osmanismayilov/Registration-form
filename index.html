@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration</title>
+  </head>
+
+  <body>
+    <section class="registr">
+      <span class="registration">Registration</span>
+      <form action="#" class="form-registration">
+        <div class="input-box">
+          <label for="full_name">Full Name</label>
+          <input
+            type="text"
+            name="full_name"
+            id="full_name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter your username"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <label for="phone_number">Phone Number</label>
+          <input
+            type="number"
+            name="phone_number"
+            id="phone_number"
+            placeholder="Enter your number"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <label for="confirm_password">Confirm Password</label>
+          <input
+            type="password"
+            name="confirm_password"
+            id="confirm_password"
+            placeholder="Confirm your password"
+            required
+          />
+        </div>
+      </form>
+      <div class="gender">
+        <span>Gender</span>
+        <div class="check">
+          <div class="check-box">
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label>
+          </div>
+          <div class="check-box">
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="female">Female</label>
+          </div>
+          <div class="check-box">
+            <input
+              type="radio"
+              name="gender"
+              id="prefer_not"
+              value="prefer_not"
+            />
+            <label for="prefer_not">Prefer not to say</label>
+          </div>
+        </div>
+      </div>
+      <div class="submit">
+        <input type="submit" value="Register" />
+      </div>
+    </section>
+  </body>
+</html>
